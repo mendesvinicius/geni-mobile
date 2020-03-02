@@ -1,0 +1,162 @@
+[{
+	"ID": "1",
+	"Sigla": "AC",
+	"title": "Acre",
+	"value": "Acre"
+},
+     {
+	"ID": "2",
+	"Sigla": "AL",
+	"title": "Alagoas",
+	"value": "Alagoas"
+},
+     {
+	"ID": "3",
+	"Sigla": "AM",
+	"title": "Amazonas",
+	"value": "Amazonas"
+},
+     {
+	"ID": "4",
+	"Sigla": "AP",
+	"title": "Amapá",
+	"value": "Amapá"
+},
+     {
+	"ID": "5",
+	"Sigla": "BA",
+	"title": "Bahia",
+	"value": "Bahia"
+},
+     {
+	"ID": "6",
+	"Sigla": "CE",
+	"title": "Ceará",
+	"value": "Ceará"
+},
+     {
+	"ID": "7",
+	"Sigla": "DF",
+	"title": "Distrito Federal",
+	"value": "Distrito Federal"
+},
+     {
+	"ID": "8",
+	"Sigla": "ES",
+	"title": "Espírito Santo",
+	"value": "Espírito Santo"
+},
+     {
+	"ID": "9",
+	"Sigla": "GO",
+	"title": "Goiás",
+	"value": "Goiás"
+},
+     {
+	"ID": "10",
+	"Sigla": "MA",
+	"title": "Maranhão",
+	"value": "Maranhão"
+},
+     {
+	"ID": "11",
+	"Sigla": "MG",
+	"title": "Minas Gerais",
+	"value": "Minas Gerais"
+},
+     {
+	"ID": "12",
+	"Sigla": "MS",
+	"title": "Mato Grosso do Sul",
+	"value": "Mato Grosso do Sul"
+},
+     {
+	"ID": "13",
+	"Sigla": "MT",
+	"title": "Mato Grosso",
+	"value": "Mato Grosso"
+},
+     {
+	"ID": "14",
+	"Sigla": "PA",
+	"title": "Pará",
+	"value": "Pará"
+},
+     {
+	"ID": "15",
+	"Sigla": "PB",
+	"title": "Paraíba",
+	"value": "Paraíba"
+},
+     {
+	"ID": "16",
+	"Sigla": "PE",
+	"title": "Pernambuco",
+	"value": "Pernambuco"
+},
+     {
+	"ID": "17",
+	"Sigla": "PI",
+	"title": "Piauí",
+	"value": "Piauí"
+},
+     {
+	"ID": "18",
+	"Sigla": "PR",
+	"title": "Paraná",
+	"value": "Paraná"
+},
+     {
+	"ID": "19",
+	"Sigla": "RJ",
+	"title": "Rio de Janeiro",
+	"value": "Rio de Janeiro"
+},
+     {
+	"ID": "20",
+	"Sigla": "RN",
+	"title": "Rio Grande do Norte",
+	"value": "Rio Grande do Norte"
+},
+     {
+	"ID": "21",
+	"Sigla": "RO",
+	"title": "Rondônia",
+	"value": "Rondônia"
+},
+     {
+	"ID": "22",
+	"Sigla": "RR",
+	"title": "Roraima",
+	"value": "Roraima"
+},
+     {
+	"ID": "23",
+	"Sigla": "RS",
+	"title": "Rio Grande do Sul",
+	"value": "Rio Grande do Sul"
+},
+     {
+	"ID": "24",
+	"Sigla": "SC",
+	"title": "Santa Catarina",
+	"value": "Santa Catarina"
+},
+     {
+	"ID": "25",
+	"Sigla": "SE",
+	"title": "Sergipe",
+	"value": "Sergipe"
+},
+     {
+	"ID": "26",
+	"Sigla": "SP",
+	"title": "São Paulo",
+	"value": "São Paulo"
+},
+     {
+	"ID": "27",
+	"Sigla": "TO",
+	"title": "Tocantins",
+	"value": "Tocantins"
+}]

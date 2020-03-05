@@ -136,7 +136,7 @@ const ViewComponent = ({
       />
 
       <CustomPicker
-        label={'Esta é uma boate GLS?'}
+        label={'Esta é uma boate LGBT?'}
         actualValue={only_for_lgbt}
         onValueChange={value => changeField(value, 'only_for_lgbt')}
         values={[

@@ -9,6 +9,8 @@ export const Container = styled.View`
 
 export const EvaluationsFlatList = styled.FlatList`
   padding: 13px;
+  border-radius: 5px;
+  margin-top: -10px;
 `
 
 export const StarsContainer = styled.View`
@@ -21,7 +23,7 @@ export const EvaluationItem = styled.View`
   /* height: 220px; */
   width: 100%;
   padding: 13px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   border-radius: 5px;
   background-color: white;
 `
@@ -55,6 +57,7 @@ export const EvaluationText = styled.Text`
   font-size: 14px;
   color: #918F8E;
   margin-bottom: 10px;
+  
 `
 
 export const EvaluationDescriptionContainer = styled.View``
@@ -69,5 +72,4 @@ export const DescriptionTitle = styled.Text`
 `
 
 export const EvaluationMoreInfo = styled.View`
-  flex-direction: row;
 `

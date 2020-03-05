@@ -65,7 +65,7 @@ const ViewComponent = ({
                         {item.category}
                       </EstablishmentText>
 
-                      {item.ratings != 'Sem avaliações' && Array(item.ratings).fill(<Icon size={10} name="star" color={'#918F8E'} />)}
+                      {item.ratings != 'Sem avaliações' && Array(item.ratings).fill(<Icon size={10} name="star" color={'#DAA520'} />)}
                     </EstablishmentCategoryContainer>
                   </EstablishmentTitleContainer>
 

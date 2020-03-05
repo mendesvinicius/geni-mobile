@@ -31,8 +31,8 @@ const SignIn = ({
           </GoBackToAuthText>
         </GoBackToAuthButton>
       </HeaderToGoBack>
-      
-      <ContainerForm>
+       
+        <ContainerForm>
         <LoginTitle>Login</LoginTitle>
 
         <CustomInput
@@ -57,9 +57,11 @@ const SignIn = ({
             loading={loading}
           />
         </ButtonView>
-      </ContainerForm>
+        </ContainerForm>
+         
     </ImageBackground>
   )
 };
+
 
 export default SignIn;

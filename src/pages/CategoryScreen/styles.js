@@ -14,7 +14,7 @@ export const PageTitle = styled.Text`
 `
 
 export const Container = styled.View`
-  background-color: #F2F2F2;
+  background-color: #FFFF;
   height: 100%;
 `
 
@@ -36,7 +36,7 @@ export const EstablishmentImage = styled(FastImage)`
 
 export const EstablishmentInfoContainer = styled.View`
   flex-direction: row;
-  margin-top: 17px;
+  margin: 0 17px;
   justify-content: space-between;
 `
 
@@ -59,7 +59,7 @@ export const EstablishmentText = styled.Text`
   font-size: 9px;
   color: #918F8E;
   margin-right: ${props => !props.adress ? 10 : 0};
-  text-align: ${props => props.adress ? 'right' : 'left'};
+  text-align: {${props => props.adress ? 'right' : 'left'};
 `
 
 export const EstablishmentAdressContainer = styled.View``

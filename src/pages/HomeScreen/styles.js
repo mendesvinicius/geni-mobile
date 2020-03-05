@@ -9,8 +9,10 @@ export const Container = styled.View`
 `;
 
 export const Banner = styled(FastImage)`
+  display:flex;
   height: 219px;
   width: 100%;
+  margin-left:30px;
 `
 
 export const CategoriesList = styled.FlatList`
@@ -34,4 +36,5 @@ export const ItemContainer = styled.TouchableOpacity`
 export const CategoryImage = styled(FastImage)`
   height: 100px;
   width: 110px;
+  margin-bottom: 60px;
 `

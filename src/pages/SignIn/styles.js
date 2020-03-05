@@ -19,8 +19,7 @@ export const GoBackToAuthText = styled.Text`
   font-size: 13px;
   color: #fff;
 `
-
-export const GoBackToAuthButton = styled.TouchableOpacity`
+export const GoBackToAuthButton = styled.View`
   width: 82px;
   height: 40px;
   border-radius: 50px;

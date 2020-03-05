@@ -28,7 +28,7 @@ const ViewComponent = ({
             resize='cover'
             fallback={true}
             source={
-            require('../../assets/images/home-banner.png')
+            require('../../assets/images/home-banner.jpg')
             }
         />
 

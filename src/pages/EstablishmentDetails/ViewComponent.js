@@ -16,6 +16,7 @@ import {
   EstablishmentTitle,
   RatingContainer,
   RatingCount,
+  ContainerEstablishment,
   ContainerDescription,
   DescriptionTitle,
   DescriptionText,
@@ -26,7 +27,7 @@ const renderScene = (route, establishment, user, navigation) => {
   switch (route.key) {
     case 'first':
       return (
-        <>
+        <ContainerEstablishment>
           <ContainerDescription>
             <DescriptionTitle>Sobre {establishment.name}</DescriptionTitle>
             <DescriptionText>{establishment.description}</DescriptionText>
@@ -43,11 +44,11 @@ const renderScene = (route, establishment, user, navigation) => {
             <DescriptionTitle>Telefone</DescriptionTitle>
             <DescriptionText>{establishment.telephone}</DescriptionText>
           </ContainerDescription>
-        </>
+          </ContainerEstablishment>
       )
     case 'second':
       return (
-        <>
+        <ContainerEstablishment>
           <ContainerDescription>
             <DescriptionTitle>Categoria</DescriptionTitle>
             <DescriptionText>{establishment.category}</DescriptionText>
@@ -72,7 +73,7 @@ const renderScene = (route, establishment, user, navigation) => {
             <DescriptionTitle>Instagram</DescriptionTitle>
             <DescriptionText>{establishment.instagram}</DescriptionText>
           </ContainerDescription>
-        </>
+        </ContainerEstablishment>
       )
     default:
       return <EvaluationsList establishment={establishment} user={user} navigation={navigation} />
@@ -134,7 +135,7 @@ const ViewComponent = ({
             && <RatingCount>{establishment.ratings}</RatingCount>
           }
           {establishment.ratings != 'Sem avaliações'
-           && Array(establishment.ratings).fill(<Icon size={30} name="star" color={'#7FA01D'} />)}
+           && Array(establishment.ratings).fill(<Icon size={30} name="star" color={'#DAA520'} />)}
         </RatingContainer>
 
         <MakeEvaluationButton

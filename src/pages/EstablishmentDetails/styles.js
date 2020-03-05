@@ -80,6 +80,13 @@ export const MakeEvaluationText = styled.Text`
   font-weight: bold;
 `
 
+export const ContainerEstablishment = styled.View`
+ height: 95%;
+ background: #FFF;
+ margin: 0 10px;
+ padding-top: 10px;
+ border-radius: 5px;
+`
 export const ContainerDescription = styled.View`
   padding-left: 18px;
   padding-right: 18px;

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View } from 'react-native'
+import { View, Text } from 'react-native'
 import { NavigationEvents } from 'react-navigation'
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
 import _ from 'lodash'
@@ -102,6 +102,16 @@ const EvaluationsList = ({
                   }} />
 
                   <EvaluationMoreInfo>
+                    <DescriptionTitle moreInfo={true}>LGBT</DescriptionTitle>
+                    <EvaluationText>{item.only_for_lgbt ? 'Sim' : 'Não'}</EvaluationText>
+                  </EvaluationMoreInfo>
+
+                  <EvaluationMoreInfo>
+                    <DescriptionTitle moreInfo={true}>Segurança</DescriptionTitle>
+                    <EvaluationText>{item.security}</EvaluationText>
+                  </EvaluationMoreInfo>
+                  
+                  <EvaluationMoreInfo>
                     <DescriptionTitle moreInfo={true}>Preço</DescriptionTitle>
                     <EvaluationText>{item.price}</EvaluationText>
                   </EvaluationMoreInfo>
@@ -111,15 +121,7 @@ const EvaluationsList = ({
                     <EvaluationText>{item.climate}</EvaluationText>
                   </EvaluationMoreInfo>
 
-                  <EvaluationMoreInfo>
-                    <DescriptionTitle moreInfo={true}>Segurança</DescriptionTitle>
-                    <EvaluationText>{item.security}</EvaluationText>
-                  </EvaluationMoreInfo>
 
-                  <EvaluationMoreInfo>
-                    <DescriptionTitle moreInfo={true}>GLS</DescriptionTitle>
-                    <EvaluationText>{item.only_for_lgbt ? 'Sim' : 'Não'}</EvaluationText>
-                  </EvaluationMoreInfo>
 
                 </EvaluationInfoContainer>
               </EvaluationItem>

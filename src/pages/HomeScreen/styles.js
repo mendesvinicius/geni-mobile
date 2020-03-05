@@ -12,6 +12,7 @@ export const Banner = styled(FastImage)`
   display:flex;
   height: 219px;
   width: 100%;
+  min-width: 200px;
   margin-left:30px;
 `
 

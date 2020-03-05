@@ -35,7 +35,7 @@ const renderScene = (route, establishment, user, navigation) => {
 
           <ContainerDescription>
             <DescriptionTitle>Endereço</DescriptionTitle>
-            <DescriptionText>{establishment.adress}</DescriptionText>
+            <DescriptionText>{establishment.country}</DescriptionText>
             <DescriptionText>Cidade: {establishment.city}</DescriptionText>
             <DescriptionText>Estado: {establishment.state}</DescriptionText>
           </ContainerDescription>

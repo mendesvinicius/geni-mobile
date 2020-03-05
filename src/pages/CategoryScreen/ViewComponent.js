@@ -70,7 +70,7 @@ const ViewComponent = ({
                   </EstablishmentTitleContainer>
 
                   <EstablishmentAdressContainer>
-                    <EstablishmentText adress={true}>{item.adress}</EstablishmentText>
+                    <EstablishmentText adress={true}>{item.country}</EstablishmentText>
 
                     <EstablishmentText adress={true}>{item.city}</EstablishmentText>
                   </EstablishmentAdressContainer>

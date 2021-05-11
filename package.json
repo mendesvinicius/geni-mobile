@@ -27,7 +27,7 @@
     "appcenter-crashes": "3.0.0",
     "axios": "^0.19.2",
     "immer": "^5.3.6",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "plop": "^2.5.3",
     "react": "16.9.0",
     "react-native": "0.61.5",
